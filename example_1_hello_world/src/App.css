@@ -1,0 +1,19 @@
+.btn {
+  background-color: #005897;
+  /* A bold blue color */
+  color: #ffffff;
+  /* White text */
+  font-size: 1rem;
+  font-weight: 200;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-family: "Helvetica", "sans-serif"
+} 
+
+.btn:hover {
+  background-color: #155980;
+  /* Slightly darker on hover */
+}

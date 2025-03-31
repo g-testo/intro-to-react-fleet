@@ -1,0 +1,36 @@
+.vehicle-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.vehicle-form input,
+.vehicle-form select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.vehicle-form button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.vehicle-form button[disabled] {
+  background-color: #94d3a2;
+  cursor: not-allowed;
+}
+
+.loading-text {
+  color: #6c757d;
+  font-style: italic;
+}

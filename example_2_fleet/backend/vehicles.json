@@ -1,0 +1,310 @@
+[
+  {
+    "id": "vehicle-001",
+    "make": "Ford",
+    "model": "Transit",
+    "year": 2023,
+    "vin": "1FTYR1CM1PKA12345",
+    "licensePlate": "ABC-1001",
+    "status": "active",
+    "leased": true,
+    "lease": {
+      "leaseStart": "2024-01-01",
+      "leaseEnd": "2025-01-01",
+      "dealer": "FleetLease Co."
+    },
+    "driver": {
+      "id": "driver-100",
+      "name": "John Doe",
+      "licenseNumber": "D1234567",
+      "phone": "555-123-4567"
+    },
+    "dealer": {
+      "id": "dealer-500",
+      "name": "AutoNation Dealer",
+      "location": "Houston, TX"
+    },
+    "telematics": {
+      "lastReportedLocation": { "latitude": 29.7604, "longitude": -95.3698 },
+      "odometer": 25000,
+      "fuelLevel": 0.75,
+      "lastReportedAt": "2024-03-30T12:30:00Z"
+    },
+    "repairHistory": [
+      { "repairId": "repair-789", "date": "2024-02-20", "description": "Oil change and tire rotation", "cost": 120 }
+    ],
+    "createdAt": "2024-01-01T09:00:00Z",
+    "updatedAt": "2024-03-30T12:30:00Z"
+  },
+
+  {
+    "id": "vehicle-002",
+    "make": "Chevrolet",
+    "model": "Express",
+    "year": 2022,
+    "vin": "1GCWGAFP9L1203456",
+    "licensePlate": "ABC-1002",
+    "status": "maintenance",
+    "leased": false,
+    "lease": null,
+    "driver": null,
+    "dealer": { "id": "dealer-501", "name": "Chevy Fleet Services", "location": "Dallas, TX" },
+    "telematics": {
+      "lastReportedLocation": { "latitude": 32.7767, "longitude": -96.797 },
+      "odometer": 40500,
+      "fuelLevel": 0.35,
+      "lastReportedAt": "2024-03-25T08:00:00Z"
+    },
+    "repairHistory": [
+      { "repairId": "repair-790", "date": "2024-01-15", "description": "Brake pad replacement", "cost": 300 }
+    ],
+    "createdAt": "2023-02-01T10:30:00Z",
+    "updatedAt": "2024-03-25T08:00:00Z"
+  },
+  {
+    "id": "vehicle-003",
+    "make": "Mercedes-Benz",
+    "model": "Sprinter",
+    "year": 2021,
+    "vin": "W1Y40CHY5MT010123",
+    "licensePlate": "ABC-1003",
+    "status": "active",
+    "leased": true,
+    "lease": {
+      "leaseStart": "2023-06-01",
+      "leaseEnd": "2024-06-01",
+      "dealer": "Mercedes Leasing"
+    },
+    "driver": {
+      "id": "driver-101",
+      "name": "Jane Smith",
+      "licenseNumber": "D2345678",
+      "phone": "555-234-5678"
+    },
+    "dealer": {
+      "id": "dealer-502",
+      "name": "Mercedes-Benz Fleet",
+      "location": "Austin, TX"
+    },
+    "telematics": {
+      "lastReportedLocation": { "latitude": 30.2672, "longitude": -97.7431 },
+      "odometer": 18000,
+      "fuelLevel": 0.55,
+      "lastReportedAt": "2024-03-29T11:00:00Z"
+    },
+    "repairHistory": [],
+    "createdAt": "2023-06-01T09:00:00Z",
+    "updatedAt": "2024-03-29T11:00:00Z"
+  },
+  {
+    "id": "vehicle-004",
+    "make": "Ram",
+    "model": "ProMaster",
+    "year": 2024,
+    "vin": "3C6MRVJGXLE123456",
+    "licensePlate": "ABC-1004",
+    "status": "active",
+    "leased": false,
+    "lease": null,
+    "driver": {
+      "id": "driver-102",
+      "name": "Mike Johnson",
+      "licenseNumber": "D3456789",
+      "phone": "555-345-6789"
+    },
+    "dealer": {
+      "id": "dealer-503",
+      "name": "Ram Commercial Fleet",
+      "location": "San Antonio, TX"
+    },
+    "telematics": {
+      "lastReportedLocation": { "latitude": 29.4241, "longitude": -98.4936 },
+      "odometer": 5000,
+      "fuelLevel": 0.9,
+      "lastReportedAt": "2024-03-30T08:00:00Z"
+    },
+    "repairHistory": [],
+    "createdAt": "2024-01-15T09:00:00Z",
+    "updatedAt": "2024-03-30T08:00:00Z"
+  },
+  {
+    "id": "vehicle-005",
+    "make": "Nissan",
+    "model": "NV200",
+    "year": 2020,
+    "vin": "3N6CM0KN6LK123456",
+    "licensePlate": "ABC-1005",
+    "status": "inactive",
+    "leased": false,
+    "lease": null,
+    "driver": null,
+    "dealer": {
+      "id": "dealer-504",
+      "name": "Nissan Fleet",
+      "location": "El Paso, TX"
+    },
+    "telematics": {
+      "lastReportedLocation": { "latitude": 31.7619, "longitude": -106.485 },
+      "odometer": 62000,
+      "fuelLevel": 0.1,
+      "lastReportedAt": "2024-03-01T07:45:00Z"
+    },
+    "repairHistory": [
+      { "repairId": "repair-791", "date": "2023-12-01", "description": "Transmission repair", "cost": 2200 }
+    ],
+    "createdAt": "2020-04-10T09:00:00Z",
+    "updatedAt": "2024-03-01T07:45:00Z"
+  },
+  {
+    "id": "vehicle-006",
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2022,
+    "vin": "1FTFW1E80NKD12345",
+    "licensePlate": "ABC-1006",
+    "status": "active",
+    "leased": true,
+    "lease": {
+      "leaseStart": "2022-12-01",
+      "leaseEnd": "2024-12-01",
+      "dealer": "FleetLease Co."
+    },
+    "driver": {
+      "id": "driver-103",
+      "name": "Anna Lee",
+      "licenseNumber": "D4567890",
+      "phone": "555-456-7890"
+    },
+    "dealer": {
+      "id": "dealer-500",
+      "name": "AutoNation Dealer",
+      "location": "Houston, TX"
+    },
+    "telematics": {
+      "lastReportedLocation": { "latitude": 29.7604, "longitude": -95.3698 },
+      "odometer": 30000,
+      "fuelLevel": 0.65,
+      "lastReportedAt": "2024-03-28T14:20:00Z"
+    },
+    "repairHistory": [],
+    "createdAt": "2022-12-01T09:00:00Z",
+    "updatedAt": "2024-03-28T14:20:00Z"
+  },
+  {
+    "id": "vehicle-007",
+    "make": "Toyota",
+    "model": "Tacoma",
+    "year": 2023,
+    "vin": "5TFCZ5ANXMX123456",
+    "licensePlate": "ABC-1007",
+    "status": "maintenance",
+    "leased": false,
+    "lease": null,
+    "driver": null,
+    "dealer": {
+      "id": "dealer-505",
+      "name": "Toyota Fleet Management",
+      "location": "Fort Worth, TX"
+    },
+    "telematics": {
+      "lastReportedLocation": { "latitude": 32.7555, "longitude": -97.3308 },
+      "odometer": 15000,
+      "fuelLevel": 0.4,
+      "lastReportedAt": "2024-03-27T12:00:00Z"
+    },
+    "repairHistory": [],
+    "createdAt": "2023-05-20T09:00:00Z",
+    "updatedAt": "2024-03-27T12:00:00Z"
+  },
+  {
+    "id": "vehicle-008",
+    "make": "GMC",
+    "model": "Savana",
+    "year": 2021,
+    "vin": "1GTW7AFG8M1234567",
+    "licensePlate": "ABC-1008",
+    "status": "active",
+    "leased": true,
+    "lease": {
+      "leaseStart": "2023-08-01",
+      "leaseEnd": "2024-08-01",
+      "dealer": "GMC Leasing"
+    },
+    "driver": {
+      "id": "driver-104",
+      "name": "Carlos Ruiz",
+      "licenseNumber": "D5678901",
+      "phone": "555-567-8901"
+    },
+    "dealer": {
+      "id": "dealer-506",
+      "name": "GMC Fleet Services",
+      "location": "Plano, TX"
+    },
+    "telematics": {
+      "lastReportedLocation": { "latitude": 33.0198, "longitude": -96.6989 },
+      "odometer": 22000,
+      "fuelLevel": 0.6,
+      "lastReportedAt": "2024-03-29T09:30:00Z"
+    },
+    "repairHistory": [],
+    "createdAt": "2023-08-01T10:00:00Z",
+    "updatedAt": "2024-03-29T09:30:00Z"
+  },
+  {
+    "id": "vehicle-009",
+    "make": "Volkswagen",
+    "model": "Transporter",
+    "year": 2022,
+    "vin": "WV1ZZZ7HZNH123456",
+    "licensePlate": "ABC-1009",
+    "status": "inactive",
+    "leased": false,
+    "lease": null,
+    "driver": null,
+    "dealer": {
+      "id": "dealer-507",
+      "name": "VW Fleet Group",
+      "location": "Frisco, TX"
+    },
+    "telematics": {
+      "lastReportedLocation": { "latitude": 33.1507, "longitude": -96.8236 },
+      "odometer": 29000,
+      "fuelLevel": 0.2,
+      "lastReportedAt": "2024-03-22T13:15:00Z"
+    },
+    "repairHistory": [
+      { "repairId": "repair-792", "date": "2024-03-20", "description": "Battery replacement", "cost": 250 }
+    ],
+    "createdAt": "2022-09-15T11:00:00Z",
+    "updatedAt": "2024-03-22T13:15:00Z"
+  },
+  {
+    "id": "vehicle-010",
+    "make": "Dodge",
+    "model": "Caravan",
+    "year": 2020,
+    "vin": "2C4RDGBG0LR123456",
+    "licensePlate": "ABC-1010",
+    "status": "maintenance",
+    "leased": false,
+    "lease": null,
+    "driver": null,
+    "dealer": {
+      "id": "dealer-508",
+      "name": "Dodge Commercial",
+      "location": "Arlington, TX"
+    },
+    "telematics": {
+      "lastReportedLocation": { "latitude": 32.7357, "longitude": -97.1081 },
+      "odometer": 48000,
+      "fuelLevel": 0.5,
+      "lastReportedAt": "2024-03-26T07:00:00Z"
+    },
+    "repairHistory": [
+      { "repairId": "repair-793", "date": "2024-02-28", "description": "Alternator replacement", "cost": 400 }
+    ],
+    "createdAt": "2020-07-05T09:45:00Z",
+    "updatedAt": "2024-03-26T07:00:00Z"
+  }
+]
